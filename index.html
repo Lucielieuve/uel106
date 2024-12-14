@@ -1,46 +1,128 @@
-<html>
-  <head>
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  
-  <body>
-    <header>
-      <navig>
-        <ul>
-          <li>Accueil</li>
-          <li>Liste</li>
-        </ul>
-      </navig>
-    </header>
-    
-    <h1>Mon profil</h1>
-    <p>Je m'appelle <strong>Lucie Lieuve</strong>, j'ai 23 ans et je suis en première année de licence professionnelle : métiers de l'informatique application web </p>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
 
-    <h2>Contact</h2>
-    <p>
-      <ul>
-        <li>+33632024570</li>
-        <li>lucie.lieuve@gmail.com</li>
-        <li>4 allée Simone de Beauvoir, Arcueil (94110)</li>
-        <li> <a href="https://www.linkedin.com/in/lucie-lieuve-43a849270/" target="_blank"> Mon profil LinkdIn </a> </li>
-      </ul>
-    </p>
-    
-    <h2>Compétences</h2>
-    <p>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>RStdudio</li>
-        <li>CMS (WordPress)</li>
-      </ul>  
-    </p>
-    
-    <h2>Expérience professionnelle</h2>
-     <img>
-    <h2>Formation</h2>
-    
-  </body>
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            font-size: 1.5em;
+            border-bottom: 2px solid #2c3e50;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #3498db;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Prénom Nom</h1>
+
+        <div class="contact-info">
+            <p>Email: <a href="mailto:exemple@mail.com">exemple@mail.com</a></p>
+            <p>Téléphone: +33 6 12 34 56 78</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/votreprofil" target="_blank">linkedin.com/in/votreprofil</a></p>
+        </div>
+
+        <div class="section">
+            <h2>Expériences Professionnelles</h2>
+            <ul>
+                <li><strong>Poste 1</strong> - Entreprise 1 (Année début - Année fin)</li>
+                <li><strong>Poste 2</strong> - Entreprise 2 (Année début - Année fin)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Formation</h2>
+            <ul>
+                <li><strong>Diplôme</strong> - Université/École (Année obtention)</li>
+                <li><strong>Baccalauréat</strong> - Lycée (Année obtention)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Compétences</h2>
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+                <span>PHP</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Loisirs</h2>
+            <ul>
+                <li>Voyage</li>
+                <li>Photographie</li>
+                <li>Lecture</li>
+            </ul>
+        </div>
+    </div>
+</body>
 </html>
 
