@@ -3,14 +3,12 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 20px;
-    background-color: #f4f8fb;
-    color: #333;
+    background-color: ##B5968E;
+    color: white;
 }
 
-/* Header et navigation */
 header {
-    background-color: #002b55;
-    position: fixed; /* Fixe le header */
+    background-color: #96695E;
     top: 0;
     left: 0;
     width: 100%; /* Pleine largeur */
