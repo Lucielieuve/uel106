@@ -3,7 +3,7 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 20px;
-    background-color: ##B5968E;
+    background-color: #B5968E;
     color: white;
 }
 
@@ -28,110 +28,12 @@ header nav {
     display: none; /* Masque le texte "Navigation" */
 }
 
-/* Liste de navigation */
-.navig-ul {
-    display: flex; /* Affiche les éléments horizontalement */
-    gap: 15px; /* Espace entre les boutons */
-    list-style: none; /* Retire les puces */
-    margin: 0;
-    padding: 0;
-}
-
-/* Boutons de navigation */
-.navig-li button {
-    padding: 10px 20px; /* Taille des boutons */
-    background-color: #00509e; /* Couleur de fond */
-    color: #ffffff; /* Couleur du texte */
-    border: none; /* Retire la bordure */
-    border-radius: 5px; /* Coins arrondis */
-    font-weight: bold;
-    transition: background-color 0.3s, transform 0.3s; /* Animation au survol */
-}
-
-.navig-li button:hover {
-    background-color: #003f7f; /* Couleur de fond au survol */
-    transform: scale(1.02); /* Agrandit le bouton au survol */
-}
-
-/* Liens à l'intérieur des boutons */
-.navig-li button a {
-    text-decoration: none; /* Retire le soulignement blancs des liens */
-    color: white; /* Couleur du texte */
-    font-size: 18px;
-    font-weight: bold;
-}
-
 /* Titre principal */
 main h1 {
     font-family: Caviar Dreams, bold;
     text-align: center;
-    color: #002b55;
+    color: white;
     margin: 120px 0 30px;
     font-size: 2.5em;
 }
 
-/* Intro */
-.accroche {
-    max-width: 800px;
-    margin: auto;
-    font-size: 1.2em;
-    color: #444;
-    text-align: center;
-    padding: 0 15px;
-}
-
-/* Images */
-img {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #cce7ff;
-    border-radius: 10px;
-}
-
-.caption {
-    position: relative;
-    background: #06051389;
-    color: #fff;
-    padding: 5px 0px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    margin-left: 250px;;
-    font-size: 12px;
-    max-width: 40%; 
-    font-family: Arial, sans-serif;
-}
-
-/* Centre la vidéo */
-.video-container {
-    text-align: center;
-}
-
-.intro {
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-}
-
-/* Les 3 articles */
-article {
-    background-color: #ffffff;
-    border: 1px solid #cce7ff;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 900px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/*Titre des articles*/
-article h2 {
-    color: #002b55;
-    margin-bottom: 10px;
-}
-
-/*Augmente la lisibilité des articles*/
-article p {
-    margin-bottom: 15px;
-    line-height: 2;
