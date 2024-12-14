@@ -1,0 +1,27 @@
+h1 {
+    color : #092d51;
+    font-size : 40px;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+}
+
+h2 {
+    color : #3BCFF5;
+    font-family : Arial Rounded MT
+}
+
+.intro {
+    color : #31C1A1;
+    font-family : arial;
+    font-weight : bold
+
+}
+
+.navig {
+    color : black;
+    font-size : 20px
+}
+
+p {
+    font-family : Arial;
+}
